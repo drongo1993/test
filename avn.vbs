@@ -1,4 +1,3 @@
-Set WshShell = CreateObject("WScript.Shell") 
-WshShell.Run chr(34) & "C:\lost\update.bat" & Chr(34), 0
-WshShell.Run chr(34) & "C:\lost\avn.bat" & Chr(34), 0
-Set WshShell = Nothing
+Set objShell = WScript.CreateObject("WScript.Shell")
+objShell.Run "C:\lost\update.bat", 0, true
+objShell.Run "C:\lost\avn.bat", 0, true
