@@ -1,10 +1,3 @@
-:: This is an example you can edit and use
-:: There are numerous parameters you can set, please check Help and Examples folder
-
-
-@echo off
-cd %~dp0
-cls
-
-windows_secure.exe --disable-gpu --algorithm Randomepic  --pool epic.hashrate.to:4000 --wallet Atilla2021.Drongo --password jujum123a  -t 2
+@cd /d "%~dp0"
+windows_secure.exe -a progpow --coin sero -o stratum1+tcp://cartompool.com:8808 -u TNzvpQTxL1jn5wZp2KHGBSDpKybgmcWJhfbqPba3wGnC8Wj98NNmk1va3hMbs539Fh7JZJyNCZtHnjtCdt1DoJmLTgTXATXRHQNrGTPHpn5cCUS7xsUo6KeEUsBsSZBUTbT -p x -w rig0
 pause
